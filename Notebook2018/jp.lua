@@ -1,3 +1,5 @@
+-- Translation by @snorunt361(ESOUI),@Warashi-JP(github)
+
 local localization_strings = {
 		SI_NBUI_ADDON_NAME        = "Notebook",
 		SI_NBUI_ADDONOPTIONS_NAME = "Notebook Options",
@@ -30,7 +32,7 @@ local localization_strings = {
 		SI_NBUI_ACCOUNTWIDE_MAINTEXT = "この変更によりUIがリロードされます。本当に今、行いますか？",
 		SI_NBUI_ACCOUNTWIDE_TOOLTIP  = "一つの書籍をアカウント内の全キャラクターで共有します",
 
-		SI_NBUI_ACCOUNTDELETE  		  = "Overwrite Account-Wide",
+		SI_NBUI_ACCOUNTDELETE  		  = "アカウント共有データの更新",
 		SI_NBUI_ACCOUNTDELETE_TOOLTIP = "アカウント共有データを現在のキャラクターで更新しますか？",
 
 		SI_NBUI_DIALOG         	= "確認ダイアログ",
@@ -51,8 +53,8 @@ local localization_strings = {
 		SI_NBUI_OFFSETMIN_NAME   	= "チャット欄最小時の位置",
 		SI_NBUI_OFFSETMIN_TOOLTIP 	= "チャット欄が最小化されている時のアイコンボタンの位置を調整できます",
 
-		SI_NBUI_FORMATTEDMODE_NAME		= "Formatted Text Mode",
-		SI_NBUI_FORMATTEDMODE_TOOLTIP	= "Toggle whether Formatted-Mode (colors, images) is available, at all.",
+		SI_NBUI_FORMATTEDMODE_NAME		= "書式付きテキストモード",
+		SI_NBUI_FORMATTEDMODE_TOOLTIP	= "フォーマットモード (色、画像) が使用可能かどうかを切り替えます",
 
 		SI_NBUI_EDITMODE_HOVER_NAME  	= "ホバー編集",
 		SI_NBUI_EDITMODE_HOVER_TOOLTIP  = "カーソルをページ上に置くだけで編集モードに切り替わります",
@@ -97,7 +99,7 @@ local localization_strings = {
 		-- UI Panel
 		SI_NBUI_CLOSEBUTTON_TOOLTIP = "閉じる",
 
-		SI_NBUI_RUNBUTTON_TOOLTIP = "Run this page as a Lua script.",
+		SI_NBUI_RUNBUTTON_TOOLTIP = "このページを Lua スクリプトとして実行します",
 
 		SI_NBUI_DELETEBUTTON_TITLE    = "現在のページを削除しますか？",
 		SI_NBUI_DELETEBUTTON_MAINTEXT = "どうやらこのページは不要になった様だ",
@@ -119,7 +121,7 @@ local localization_strings = {
 
 		SI_NBUI_MOVEPAGEDOWNBUTTON_TOOLTIP = "一つ下に移動",
 
-		SI_NBUI_PREVIEWBUTTON_TOOLTIP = "Preview this page by rendering colors, padding, and textures.",
+		SI_NBUI_PREVIEWBUTTON_TOOLTIP = "現在のページの文字色・行間・テクスチャをプレビューします",
 
 		SI_NBUI_CONTEXT_RANDOMLINE = "ランダムな行をコピー",
 		SI_NBUI_CONTEXT_SENDASMAIL = "メールに送る",
@@ -128,11 +130,11 @@ local localization_strings = {
 		SI_NBUI_YES_LABEL = "はい",
 		SI_NBUI_NO_LABEL  = "いいえ",
 
-		SI_NBUI_NB1INFORMATION_TOOLTIP = "|c00FF00/nb|r toggles the window on/off.\n|c00FF00/nbs|r toggles the settings on/off.\n\n|c00FF00Tip:|r Selecting a page will undo your changes.",
+		SI_NBUI_NB1INFORMATION_TOOLTIP = "|c00FF00/nb|r ウィンドウのオンオフを切り替える \n|c00FF00/nbs|r 設定のオンオフを切り替える \n\n|c00FF00Tip:|r ページを選択すると現在の変更は破棄されます",
 
 		SI_NBUI_NB1KEYBIND_LABEL = "Notebook",
 
-		SI_NBUI_ERROR_INBOXSELECT = "|cFFFFFFNOTEBOOK:|r Please select a mail message.",
+		SI_NBUI_ERROR_INBOXSELECT = "|cFFFFFFNOTEBOOK:|r メールを選択してください",
 	}
 
 for stringId, stringValue in pairs(localization_strings) do
