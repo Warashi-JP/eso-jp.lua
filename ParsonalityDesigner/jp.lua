@@ -8,7 +8,7 @@ PersonalityDesigner = {
 
 local PD = PersonalityDesigner
 
--- Translated by Warashi-JP(github)
+-- Translation by @snorunt361(ESOUI),@Warashi-JP(github)
 local stringsJP = {
 	-- These use ZOS localization
 	P_DESIGNER_MENU = GetString(SI_BINDING_NAME_GAMEPAD_TOGGLE_GAME_CAMERA_UI_MODE),
